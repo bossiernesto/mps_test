@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,30,0" name="NewLanguage.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="Expression_BehaviorDescriptor.java">
+      <unit at="6,0,8,0" name="NewLanguage.behavior.Expression_BehaviorDescriptor" />
+    </file>
+    <file name="MethodCall_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="NewLanguage.behavior.MethodCall_BehaviorDescriptor" />
+    </file>
+    <file name="Method_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="NewLanguage.behavior.Method_BehaviorDescriptor" />
+    </file>
+    <file name="ObjectDeclaration_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="NewLanguage.behavior.ObjectDeclaration_BehaviorDescriptor" />
+    </file>
+    <file name="ObjectReference_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="NewLanguage.behavior.ObjectReference_BehaviorDescriptor" />
+    </file>
+    <file name="Program_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="NewLanguage.behavior.Program_BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:3dd7c421-1553-4f74-a705-7e740c04c639(NewLanguage.behavior)/7227305933110295696">
+    <file name="Program_Behavior.java">
+      <node id="7227305933110296221" at="16,74,17,29" concept="1" />
+      <node id="7227305933110330560" at="21,38,22,163" concept="1" />
+      <node id="7227305933110295696" at="14,0,16,0" concept="2" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7227305933110295696" at="16,0,19,0" concept="2" trace="call_NoMethod_7227305933110296046#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7227305933110330217" at="21,0,24,0" concept="0" trace="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7227305933110315096" at="19,84,24,13" concept="1" />
+      <node id="7227305933110295696" at="19,0,26,0" concept="2" trace="call_nombreDeMisObjetos_7227305933110315071#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="7227305933110295698" at="14,43,14,43" />
+      <scope id="7227305933110296048" at="16,74,17,29" />
+      <scope id="7227305933110330218" at="21,38,22,163" />
+      <scope id="7227305933110295696" at="14,0,16,0">
+        <var name="thisNode" id="7227305933110295696" />
+      </scope>
+      <scope id="7227305933110295696" at="16,0,19,0">
+        <var name="thisNode" id="7227305933110295696" />
+      </scope>
+      <scope id="7227305933110330217" at="21,0,24,0">
+        <var name="it" id="7227305933110330217" />
+      </scope>
+      <scope id="7227305933110315073" at="19,84,24,13" />
+      <scope id="7227305933110295696" at="19,0,26,0">
+        <var name="thisNode" id="7227305933110295696" />
+      </scope>
+      <unit id="7227305933110330217" at="20,246,24,5" name="NewLanguage.behavior.Program_Behavior$1" />
+      <unit id="7227305933110295696" at="13,0,27,0" name="NewLanguage.behavior.Program_Behavior" />
+    </file>
+  </root>
+</debug-info>
+
